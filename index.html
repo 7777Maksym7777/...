@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FocusFlow — простір для спокійної продуктивності, фокусу та відпочинку.">
+  <title>FocusFlow — продуктивність у балансі</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="FocusFlow — на головну">
+        <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Логотип FocusFlow">
+          <rect x="2" y="2" width="36" height="36" rx="13" fill="currentColor"/>
+          <path d="M11 22.5c4.8-8.2 13.2-8.2 18 0M14 26c3.2-5.3 8.8-5.3 12 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2" fill="#fff"/>
+        </svg>
+        <span>focus<span class="brand-light">flow</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Головна навігація">
+        <a href="#features">Можливості</a>
+        <a href="#plans">Тарифи</a>
+        <a href="#demo">Демо</a>
+      </nav>
+      <a class="header-link" href="#plans">Спробувати безкоштовно <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero grid-layout" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> ПРОДУКТИВНІСТЬ У БАЛАНСІ</p>
+          <h1 id="hero-title">Менше хаосу.<br><span>Більше фокусу.</span></h1>
+          <p class="hero-description">Плануйте день, зосереджуйтеся на важливому та знаходьте час для себе. Усе необхідне для спокійної продуктивності — в одному просторі.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#plans">Почати безкоштовно <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#demo">Переглянути демо <span aria-hidden="true">▶</span></a>
+          </div>
+          <div class="social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-one">М</span><span class="avatar avatar-two">А</span><span class="avatar avatar-three">О</span>
+            </div>
+            <p><strong>12 000+</strong><br><span>людей працюють у власному ритмі</span></p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=85&fm=webp"
+            srcset="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=600&q=80&fm=webp 600w,
+                    https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=85&fm=webp 1100w"
+            sizes="(max-width: 760px) 100vw, 48vw"
+            alt="Світлий мінімалістичний робочий простір із рослинами"
+            loading="lazy">
+          <div class="focus-card">
+            <div class="focus-card-top"><span>Фокус-сесія</span><span class="live-dot">● ЗАРАЗ</span></div>
+            <strong>25:00</strong>
+            <div class="progress-track"><span></span></div>
+            <small>Час для важливого завдання</small>
+          </div>
+          <div class="floating-note"><span class="note-icon">✦</span><span><strong>Чудовий темп!</strong><small>3 сесії завершено</small></span></div>
+        </div>
+      </section>
+
+      <section class="features section" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">ВАШ ПРОСТІР ДЛЯ РОЗВИТКУ</p>
+          <h2 id="features-title">Усе, щоб день <span>працював на вас</span></h2>
+          <p>Прості інструменти, які допомагають зосередитися без зайвого тиску.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-large">
+            <div class="feature-icon lavender" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <h3>Розумний фокус</h3>
+            <p>Працюйте короткими сесіями з перервами, щоб зберігати енергію та увагу.</p>
+            <span class="feature-number">01 / 03</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon mint" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4m8-4v4M4 10h16m-11 4 2 2 4-4"/></svg>
+            </div>
+            <h3>План на день</h3>
+            <p>Визначайте пріоритети та відстежуйте прогрес.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon peach" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.2-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.8-7 10-7 10Z"/><path d="M9 12h6"/></svg>
+            </div>
+            <h3>Баланс і турбота</h3>
+            <p>Нагадуйте собі про відпочинок і маленькі перемоги.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section section" id="demo" aria-labelledby="demo-title">
+        <div class="demo-copy">
+          <p class="eyebrow">ПОДИВІТЬСЯ, ЯК ЦЕ ПРАЦЮЄ</p>
+          <h2 id="demo-title">Зосередьтеся на <span>одному кроці</span></h2>
+          <p>Почніть із короткої сесії. FocusFlow допоможе структурувати час і не забувати про паузи.</p>
+          <ul class="check-list">
+            <li><span aria-hidden="true">✓</span> Зрозумілий план без перевантаження</li>
+            <li><span aria-hidden="true">✓</span> Комфортний темп роботи</li>
+            <li><span aria-hidden="true">✓</span> Видимий прогрес щодня</li>
+          </ul>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata" poster="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=80&fm=webp" aria-label="Демонстраційне відео про спокійний робочий ритм">
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+            Ваш браузер не підтримує відтворення відео.
+          </video>
+          <p class="video-caption"><span class="play-indicator">▶</span> Невелика пауза — теж частина продуктивності</p>
+        </div>
+      </section>
+
+      <section class="pricing section" id="plans" aria-labelledby="plans-title">
+        <div class="section-heading">
+          <p class="eyebrow">ОБЕРІТЬ СВІЙ РИТМ</p>
+          <h2 id="plans-title">Простий старт. <span>Відчутний результат.</span></h2>
+          <p>Почніть безкоштовно та переходьте на розширений план, коли будете готові.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="plan-label">START</p><h3>Безкоштовно</h3>
+            <p class="price">₴0 <span>/ назавжди</span></p>
+            <p class="plan-description">Усе необхідне для перших кроків.</p>
+            <ul><li>Щоденний список завдань</li><li>Таймер фокусу</li><li>Базова статистика</li></ul>
+            <a class="button button-secondary" href="mailto:hello@focusflow.example">Обрати Start</a>
+          </article>
+          <article class="price-card price-card-featured">
+            <span class="popular-tag">ПОПУЛЯРНИЙ</span>
+            <p class="plan-label">PLUS</p><h3>Більше можливостей</h3>
+            <p class="price">₴149 <span>/ місяць</span></p>
+            <p class="plan-description">Для тих, хто хоче більше контролю.</p>
+            <ul><li>Усе з безкоштовного плану</li><li>Розширена аналітика</li><li>Персональні шаблони</li><li>Історія продуктивності</li></ul>
+            <a class="button button-primary" href="mailto:hello@focusflow.example">Спробувати Plus <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="price-card">
+            <p class="plan-label">TEAM</p><h3>Для команди</h3>
+            <p class="price">₴299 <span>/ користувач / місяць</span></p>
+            <p class="plan-description">Спільний фокус і прозорі цілі.</p>
+            <ul><li>Усе з плану Plus</li><li>Спільні простори</li><li>Командні звіти</li></ul>
+            <a class="button button-secondary" href="mailto:hello@focusflow.example">Обрати Team</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing-banner">
+        <div><p class="eyebrow">ПОЧНІТЬ СЬОГОДНІ</p><h2>Ваш спокійний ритм починається тут.</h2></div>
+        <a class="button button-light" href="#plans">Спробувати FocusFlow <span aria-hidden="true">→</span></a>
+        <span class="banner-orb" aria-hidden="true"></span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#"><span class="footer-mark">✳</span><span>focus<span class="brand-light">flow</span></span></a>
+      <p>© 2026 FocusFlow. Створено для балансу та фокусу.</p>
+      <a href="mailto:hello@focusflow.example">Зв’язатися з нами</a>
+    </footer>
+  </div>
+</body>
+</html>
